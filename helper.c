@@ -1,5 +1,13 @@
 #include "main.h"
 
+/**
+ * int_to_str - Function to help in Identify the d and i as integars
+ * @n: parameter to identify int
+ * @buf: parameter point to char
+ *
+ * Return: Will be len
+ */
+
 int int_to_str(int n, char *buf)
 {
 	int len = 0;
